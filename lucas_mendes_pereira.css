@@ -1,0 +1,1026 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,500&family=Tenor+Sans&family=Work+Sans:wght@700&display=swap');
+
+/*Reset dos padroes apricados pelo navegador*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*-----Primeira tela----*/
+
+/*Cabeçalho*/
+.heading {
+    display: flex;
+    align-items: center;
+}
+/*Logo*/
+.logoTela1 {
+    display: flex;
+    align-items: center;
+    margin: 42px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 139.8%;
+}
+/*Distanciamento do menu (tag nav)*/
+.navegacao {
+    display: flex;
+    margin-left: 164px;
+    margin-top: 54px;
+}
+/*Itens do menu*/
+.itensnav {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 94.8%;
+    color: #000000;
+    margin-right: 40.7px;
+}
+/*Item do menu shop*/
+.shop {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 94.8%;
+    color: #000000;
+    margin-left: 37.13px;
+    margin-right: 115.16px;
+}
+/*Item do menu contact*/
+.contact {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 94.8%;
+    color: #000000;
+}
+/*Input do campo de pesquisa Search*/
+.inputSeachTela1 {
+    width: 259.76px;
+    height: 49.64px;
+    background: rgba(255, 249, 240, 0.1);
+    box-shadow: 0px 9.9272px 33.0907px -13.2363px rgba(0, 0, 0, 0.1);
+    border-radius: 24.818px;
+    padding: 0px 60px;
+    border: none;
+}
+/*Container utilizado para fazer o posicionamento do campo de pesquisa search*/
+.botSeachTela1 {
+    display: flex;
+    align-items: center;
+    margin-top: 41px;
+}
+/*Botão utilizado no campo search para implementação do icone carrinho*/
+.botImagemCarrinhoTela1 {
+    width: 100px;
+    height: 49.64px;
+    background: rgba(255, 249, 240, 0.1);
+    box-shadow: 0px 9.9272px 33.0907px -13.2363px rgba(0, 0, 0, 0.1);
+    border-radius: 24.818px;
+    margin-left: -100px;
+    border: none;
+}
+/*Posicionamento do icone de lupa no campo de pesquisa search*/
+.imgLupaSearchTela1 {
+    position: absolute;
+    margin-left: 25px;
+}
+/*Posicionamento do icone de linha no campo de pesquisa search*/
+.imgLinhaTela1 {
+    position: absolute;
+    margin-top: 2px;
+}
+/*Posicionamento do icone de carrinho no botão dentro do campo de pesquisa search*/
+.imgCarrinhoTela1 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+/*Posicionamento do icone de bolinha de notificações dentro do botao no campo de pesquisa search*/
+.imgBolinhaNotTela1 {
+    margin-top: -15px;
+    margin-left: 20px;
+}
+/*Posicionamento do numero 2 dentro do botao no campo de pesquisa search*/
+.number2Tela1 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.27267px;
+    line-height: 94.8%;
+    color: #FFFFFF;
+    margin-left: -29px;
+    margin-top: 6px;
+}
+/*Style do botao login no cabeçalho*/
+.buttonLogin {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.7857px;
+    line-height: 18px;
+    color: #2F2F2F;
+    width: 125px;
+    height: 45px;
+    border: 1px solid #2F2F2F;
+    box-sizing: border-box;
+    background: linear-gradient(304.58deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+    border-radius: 23.5714px;
+    margin-left: 29.24px;
+    margin-top: 41px;
+}
+/*Style do botao sign up do cabeçalho*/
+.buttonSignUp {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.7857px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 125px;
+    height: 45px;
+    background: #2F2F2F;
+    box-shadow: 0px 4.71429px 4.71429px rgba(0, 0, 0, 0.25);
+    border-radius: 23.5714px;
+    margin-left: 8px;
+    margin-top: 41px;
+}
+/*Style section tela1*/
+.tela1 {
+    height: 100vh;
+    background: linear-gradient(304.58deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+}
+/*Distanciamento do container da esquerda em relação ao cabeçalho*/
+.containerEsquerdaTela1 {
+    margin-top: 59px;
+}
+/*Style de escrita*/
+.escritaEasy {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #FF8E0A;
+}
+/*Style de escrita e distanciamento*/
+.fast {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 103.408px;
+    line-height: 94.8%;
+    letter-spacing: -0.035em;
+    color: #FF7E00;
+    width: 216px;
+}
+/*Style de escrita e distanciamento*/
+.food {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43.0179px;
+    line-height: 94.8%;    
+    color: #2F2F2F;
+    width: 183px;
+    margin-left: 14.81px;
+}
+/*Style de escrita e distanciamento*/
+.sed {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.1999px;
+    line-height: 138.8%;
+    color: #909090;
+    width: 469.89px;
+    margin-left: 65.96px;
+}
+/*Alinhamento do container que compoe escrita*/
+.ContainerEasyWay {
+    display: flex;
+    align-items: center;
+    margin-left: 61px;
+}
+/*Alinhamento do container que compoe escrita*/
+.containerFastFood {
+    display: flex;
+    align-items: center;
+    margin-left: 61px;
+}
+/*Style botão order*/
+.order {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.5453px;
+    line-height: 94.8%;
+    width: 89px;
+    height: 16px;
+    color: #F4ECE1;
+    width: 155.53px;
+    height: 57.91px;
+    background: #2F2F2F;
+    box-shadow: 0px 16.5453px 26.4725px -6.61813px rgba(0, 0, 0, 0.2);
+    border-radius: 69.4904px;
+}
+/*Style botão order process*/
+.orderProcess {
+    width: 47.15px;
+    height: 47.15px;
+    background: #FFF8F0;
+    box-shadow: 0px 16.5453px 29.7816px -13.2363px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 23.16px;
+}
+/*Seta dentro do botao order process*/
+.setaOrder {
+    background-color: #FFF8F0;
+    width: 0px;
+    height: 0px;
+    margin-left: 17.89px;
+    border-left: 17.37px solid #2F2F2F;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+/*Style da escrita do botao order process*/
+.escritaOrder {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 132.3%;
+    letter-spacing: 0.045em;
+    color: #000000;
+    margin-left: 6.19px;
+}
+/*Container para o alinhamento dos botoes order e order process*/
+.containerButtons {
+    display: flex;
+    align-items: center;
+    margin-left: 65.96px;
+    margin-top: 37.69px;
+}
+/*Container utilizado para alinhamento das imagens de estrela e escritas*/
+.containerStars {
+    margin-top: 40.19px;
+    margin-left: 66.72px;
+    width: 206.82px;
+}
+/*Style das escritas dentro do containerStars*/
+.escritaStars {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.8908px;
+    line-height: 139.8%;
+    color: #2F2F2F;
+}
+/*Style das escritas dentro do containerStars*/
+.escritaStars2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.8908px;
+    line-height: 139.8%;
+    color: #909090;
+}
+/*Dimensões e posicionamento da imagem posicionada a direita da primeira tela*/
+.imgDireitaTela1 {
+    width: 620.45px;
+    margin-left: 752.15px;
+    margin-top: -450px;
+}
+
+/*-----Segunda tela----*/
+
+/*Style section tela2*/
+#tela2 {
+    background: #FFFFFF;
+}
+/*Container principal da primeira parte da section (Order Delivery in just Half hour)*/
+.primeiroContainerTela2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1231.63px;
+    margin-left: 67px;
+}
+/*Style do titulo e posicionamento no container*/
+.OrderDelivery {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54.4404px;
+    line-height: 82px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #44455B;
+    width: 714px;
+    margin-left: 240px;
+    margin-top: 34.04px;
+}
+/*Container utilizado para o alinhamento dos itens abaixo do titulo*/
+.segundoContainerTela2 {
+    display: flex;
+    margin-top: 53px;
+}
+/*Container das escritas na parte esquerda*/
+.articleContaineirTela2 {
+    width: 386px;
+}
+/*Style de escrita e posição*/
+.everytime {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21.7762px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #44455B;
+    width: 308.95px;
+    margin-top: 27px;
+}
+/*Style de escrita e posição*/
+.loremIpsum {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.3321px;
+    line-height: 163.6%;
+    letter-spacing: -0.005em;
+    color: #44455B;
+    width: 386px;
+    margin-top: 12.25px;
+}
+/*Containeir para o primeiro bloco*/
+.containerPrancheta {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 205.79px;
+    height: 214.3px;
+    background: #F5EDE1;
+    border-radius: 15.6116px;
+    box-shadow: 25px 9px 4px rgb(0 0 0 / 25%);
+    margin-left: 14px;
+}
+/*Distancimaneto da imagem de prancheta dentro do bloco*/
+.imgPrancheta {
+    margin-top: 28.27px;
+}
+/*Style de escrita dentro do primeiro bloco*/
+.orderYourFood {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18.4501px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #44455B;
+    width: 173.15px;
+    margin-top: 21.17px;
+}
+/*Style de escrita dentro do primeiro bloco*/
+.loremIpsumPrancheta {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.1924px;
+    line-height: 132.3%;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #44455B;
+    width: 201px;
+    margin-top: 5px;
+}
+/*Style do segundo bloco*/
+.containerMoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 205.79px;
+    height: 214.3px;
+    background: #F5EDE1;
+    border-radius: 15.6116px;
+    box-shadow: 25px 9px 4px rgb(0 0 0 / 25%);
+    margin-left: 106.21px;
+}
+/*Distanciamento da imagem dentro do segundo bloco*/
+.imgMoto {
+    margin-top: 30.77px;
+}
+/*Style de escrita segundo bloco*/
+.deliveryPickup {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18.4501px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #44455B;
+    width: 173.15px;
+    margin-top: 7px;
+}
+/*Style de escrita segundo bloco*/
+.loremIpsumMoto {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.1924px;
+    line-height: 132.3%;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #44455B;
+    width: 187px;
+    margin-top: 5px;
+}
+/*Style do terceiro bloco*/
+.containerPanela {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 205.79px;
+    height: 214.3px;
+    background: #F5EDE1;
+    border-radius: 15.6116px;
+    box-shadow: 25px 9px 4px rgb(0 0 0 / 25%);
+    margin-left: 105.21px;
+}
+/*Distanciamento da imagem dentro do terceiro bloco*/
+.imgPanela {
+    margin-top: 27.23px;
+}
+/*Style de escrita terceiro bloco*/
+.enjoyYourMeal {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18.4501px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #44455B;
+    width: 173.15px;
+    margin-top: 5px;
+}
+/*Style de escrita terceiro bloco*/
+.loremIpsumPanela {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.1924px;
+    line-height: 132.3%;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #44455B;
+    width: 183px;
+    margin-top: 5px;
+}
+/*Container principal abrangendo o container do titulo e subtitulo e os 4 blocos*/
+#containerTela2Shop {
+    margin-right: 20px;
+    background-image: url(imagens/tela2\ -\ circulo\ lado\ esquerdo.png);
+    background-repeat: no-repeat;
+}
+/*Container utilizado para o posicionamento das escritas do titulo e subtitulo*/
+.containerBestTela2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 484px;
+    margin-left: 618px;
+    margin-top: 54.7px;
+}
+/*Style da escrita do subtitulo acima dos blocos*/
+.picked {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    text-align: center;
+    color: #F4C276;
+    width: 223px;
+}
+/*Style da escrita do titulo acima dos blocos*/
+.bestSelling {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #44455B;
+    width: 484px;
+}
+/*Container utilizado para o alinhamento dos 4 blocos em linha*/
+.containerAlinhamentoTela2 {
+    display: flex;
+    align-items: center;
+}
+/*Container que forma o bloco 1*/
+.containerTela2Bloco1 {
+    width: 270px;
+    height: 416px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 24, 52, 0.080899);
+    border-radius: 100px 24px 24px 24px;
+    margin-top: 89px;
+    margin-left: 199px;
+}
+/*Dimensoes do bloco 1 aplicado na imagem para ficar com o mesmo formato*/
+.tela2Comida1 {
+    width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 24, 52, 0.080899);
+    border-radius: 100px 24px 24px 24px;
+    margin-left: -32px;
+    margin-top: -32px;
+}
+/*Style da escrita dentro do bloco 1*/
+.loremIpsumTela2 { 
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: right;
+    color: #333333;
+    width: 161px;
+    margin-left: 77px;
+}
+/*Distanciamentos das imagens das estrelas dentro dos blocos (div com as 5 estrelas)*/
+.starsTela2 {
+    margin-left: 132px;
+}
+/*Container que forma o bloco 2*/
+.containerTela2Bloco2 {
+    width: 270px;
+    height: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 24, 52, 0.080899);
+    border-radius: 50px 24px 24px 24px;
+    margin-left: 44px;
+    margin-top: 89px;
+}
+/*Dimensoes do bloco 2 aplicado na imagem para ficar com o mesmo formato*/
+.tela2Comida2 {
+    width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 24, 52, 0.080899);
+    border-radius: 50px 24px 24px 24px;
+    margin-left: -32px;
+    margin-top: -32px;
+}
+/*Container que forma o bloco 3*/
+.containerTela2Bloco3 {
+    width: 270px;
+    height: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 24, 52, 0.080899);
+    border-radius: 50px 24px 24px 24px;
+    margin-left: 44px;
+    margin-top: 89px;
+}
+/*Dimensoes do bloco 3 aplicado na imagem para ficar com o mesmo formato*/
+.tela2Comida3 {
+    width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 24, 52, 0.080899);
+    border-radius: 50px 24px 24px 24px;
+    margin-left: -32px;
+    margin-top: -32px;
+}
+/*Container que forma o bloco 3*/
+.containerTela2Bloco4 {
+    width: 270px;
+    height: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 24, 52, 0.080899);
+    border-radius: 50px 24px 24px 24px;
+    margin-left: 44px;
+    margin-top: 89px;
+}
+/*Dimensoes do bloco 4 aplicado na imagem para ficar com o mesmo formato*/
+.tela2Comida4 {
+    width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 48px rgba(0, 24, 52, 0.080899);
+    border-radius: 50px 24px 24px 24px;
+    margin-left: -32px;
+    margin-top: -32px;
+}
+/*Dimensões e estilo do botao "order now" abaixo dos blocos*/
+.orderNowTela2 {
+    width: 194.79px;
+    height: 55px;
+    background: #44455B;
+    border-radius: 13.75px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.9167px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-left: 697px;
+    margin-top: 80px;
+}
+/*Distanciamento das imagens contendo os preços dentro de cada bloco*/
+.tela2PrecoComida1 {
+    margin-top: 25px;
+}
+/*Container que forma um retangulo para a inclusao das imagens e escritas*/
+.haveYou {
+    width: 1163.71px;
+    height: 275.55px;
+    background: #F5EDE1;
+    box-shadow: 0px 5.72549px 5.72549px rgba(0, 0, 0, 0.25);
+    border-radius: 50.098px;
+    margin-top: 108.59px;
+    margin-left: 111px;
+}
+/*Distanciamento da imagem de fogo*/
+.imgFogoTela2 {
+    margin-left: 240.47px;
+}
+/*Distanciamento da imagem de bolo*/
+.imgBoloTela2 {
+    margin-top: -230px;
+    margin-left: 906.06px;
+}
+/*Distanciamento da imagem de sopa*/
+.imgSopaTela2 {
+    position: absolute;
+    margin-left: 757.2px;
+    margin-top: 10.26px;
+}
+/*Distanciamento da imagem de macarrão*/
+.imgMacarraoRepetidoTela2 {
+    position: absolute;
+    margin-left: 20.04px;
+}
+/*Distanciamento da imagem de macarrão2*/
+.imgMacarraoRepetido2Tela2 {
+    position: absolute;
+    margin-left: 705.67px;
+    margin-top: 87.94px;
+}
+/*Distanciamento da imagem de hamburguer e batata*/
+.imgHamburguerTela2 {
+    position: absolute;
+    margin-left: 505.27px;
+    margin-top: 29.31px;
+}
+/*Distanciamento da imagem de hamburguer e batata2*/
+.imgHamburguer2Tela2 {
+    position: absolute;
+    margin-left: 818.75px;
+    margin-top: 93.8px;
+}
+/*Containeir do article que contem as escritas dentro do retangulo*/
+.escritasHaveYouTela2 {
+    margin-top: -141.78px;
+    margin-left: 34px;
+}
+/*Style da primeira escrita*/
+.haveYouGotOurTela2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34.3529px;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    color: #44455B;
+}
+/*Style da segunda escrita*/
+.bestCooksAndTela2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20.04px;
+    line-height: 65.87px;
+    letter-spacing: -0.01em;
+    color: #44455B;
+}
+
+/*----Terceira tela-----*/
+
+/*Container principal onde sera incluido a imagem e as escritas*/
+.containerPrincipalTela3 {
+    width: 1309px;
+    height: 592px;
+    background: linear-gradient(180deg, #FFF0EC 0%, #FFDDD4 100%);
+    border-radius: 0px 100px 24px 0px;
+    margin-top: 187.86px;
+    margin-left: 7px;
+}
+/*Dimensoes da imagem que sobrepoe o container*/
+#imgCarneTela3 {
+    width: 770px;
+    background: linear-gradient(180deg, #FFF0EC 0%, #FFDDD4 100%);
+    border-radius: 0px 100px 24px 0px;
+    margin-left: 150px;
+    margin-top: -90px;
+}
+/*Container para o pisicionamento das escritas ao lado da imagem*/
+.containerEscritasTela3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 376px;
+    margin-left: 933px;
+    margin-top: -489px;
+}
+/*Style de escrita*/
+.foodTrendTela3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.5938px;
+    line-height: 37px;
+    text-align: right;
+    color: #FF8E0A;
+    width: 152px;
+}
+/*Style de escrita*/
+.loremIpsumTela3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 32px;
+    text-align: right;
+    color: #333333;
+    width: 335px;
+    margin-top: 31px;
+}
+/*Style de escrita*/
+.loremIpsumDolorTela3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.5);
+    width: 376px;
+    margin-top: 122px;
+}
+/*Posicionamento da imagem de alteração de pagina*/
+.imgAlteradorDePaginaTela3 {
+    margin-top: 111px;
+}
+
+/*-----Footer----*/
+
+/*Container principal para o alinhamento dos itens*/
+#containerPrincipalFooter {
+    display: flex;
+    margin-top: 225px;
+}
+/*Container utilizado para a primeira coluna de escritas*/
+.coluna1Footer {
+    width: 229.55px;
+    margin-left: 40px;
+}
+/*Container utlizado para o alinhamento do logo (imagem + escrita)*/
+.logoFooter {
+    display: flex;
+    align-items: center;
+}
+/*Dimensões da imagem do chapeuzinho do logo*/
+.iconeChapeuFooter {
+    width: 20px;
+    height: 20px;
+}
+/*Style da escrita do logo*/
+.logoFooterEscrita {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22.6316px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #44455B;
+    width: 145px;
+}
+/*Style de escrita da primeira coluna*/
+.makingFooter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.2431px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #FAB856;
+    width: 229.55px;
+
+    margin-top: 11.18px;
+}
+/*Dimensão de icone*/
+.iconsFooter {
+    margin-top: 32.76px;
+}
+/*Dimensão de icone*/
+.iconeFoot {
+    margin-right: 17.23px;
+}
+/*Dimensão do container da segunda coluna*/
+.coluna2Footer {
+    width: 127px;
+}
+/*Style de escrita da segunda coluna*/
+.companyFooter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.6316px;
+    line-height: 26px;
+    color: #44455B;
+}
+/*Style de escrita da primeira coluna*/
+.escritaColuna2Footer {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.0877px;
+    line-height: 26px;
+    color: #44455B;
+    margin-top: 18px;
+}
+/*Dimensões do container da terceira coluna*/
+.coluna3Footer {
+    width: 338px;
+    margin-left: 33.12px;
+}
+/*Style de escrita da terceira coluna*/
+.joinOurNewsletter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.6316px;
+    line-height: 26px;
+    color: #44455B;
+    width: 228px;
+}
+/*Container utilizado para o alinhamento do input e botao subscribe*/
+.campoEmailFooter {
+    display: flex;
+    margin-top: 34.23px;
+}
+/*Input utilizado para o campo de inserção de e-mail*/
+.inputEmailFooter {
+    width: 180.19px;
+    height: 39.04px;
+    background: #F9F9F9;
+    border: none;
+}
+/*Style do botão subscribe*/
+.subscribeFooter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.0126px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    width: 111.87px;
+    height: 39.04px;
+    background: #44455B;
+    border-radius: 5px;
+    border: none;
+}
+/*Style de escrita da terceira coluna*/
+.willSendFooter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.0877px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #181433;
+    opacity: 0.5;
+    width: 338px;
+    margin-top: 31.13px;
+}
+/*Dimensão do container utilizado para alinhamento da quarta coluna*/
+.coluna4Footer {
+    width: 408.9px;
+    margin-left: 46.74px;
+}
+/*Style de escrita da quarta coluna*/
+.haveYouGotFooter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28.6945px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #44455B;
+    margin-right: 35px;
+}
+/*Style de escrita da quarta coluna*/
+.bestCookFooter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.3473px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #FAB856;
+    width: 373.93px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+/*Container utilizado para alinhamento dos botoes da quarta coluna*/
+.buttonsColuna4Footer {
+    margin-top: 31.32px;
+    margin-left: 35px;
+}
+/*Style do botao play store quarta coluna*/
+.playStore {
+    width: 144.02px;
+    height: 51.64px;
+    border: 0.727351px solid #44455B;
+    box-sizing: border-box;
+    border-radius: 9.45556px;
+    background-color: #FFFFFF;
+}
+/*Style da escrita do botao play store da quarta coluna*/
+.escritaPlayFooter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14.547px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #44455B;
+    margin-left: 56.08px;
+}
+/*Alinhamento da imagem do botao play store*/
+.iconePlayStoreFooter {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -6px;
+}
+/*Style do botao app store quarta coluna*/
+.appStoreFooter {
+    width: 144.02px;
+    height: 51.64px;
+    border: 0.727351px solid #44455B;
+    box-sizing: border-box;
+    border-radius: 9.45556px;
+    background-color: #FFFFFF;
+    margin-left: 12.36px;
+}
+/*Style da escrita do botao app store da quarta coluna*/
+.escritaAppStoreFooter {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14.547px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #44455B;
+    margin-left: 48.05px;
+}
+/*Alinhamento da imagem do botao app store*/
+.iconeAppStoreFooter {
+    position: absolute;
+    margin-left: -55px;
+    margin-top: -6px;
+}
+/*Alinhamento da imagem de telefone a direita da quarta coluna*/
+.imgPhoneFooter {
+    margin-top: -45px;
+}
+/*Style de escrita e alinhamento (Lance Design. All Rights Reserved.)*/
+.direitosAutoraisFooter {
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.0877px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #44455B;
+    width: 728.52px;
+    margin-top: 67.99px;
+    margin-left: -113px;
+}
